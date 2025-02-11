@@ -1,0 +1,23 @@
+# Ігнорувати файли середовища
+.env
+.env.local
+
+# Ігнорувати залежності (якщо не потрібно додавати їх у репо)
+node_modules/
+package-lock.json
+
+# Логи та кеш
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# База даних та тимчасові файли
+*.sqlite
+*.db
+*.log
+
+# Кеш системи
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
